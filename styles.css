@@ -1,0 +1,89 @@
+:root{
+    --primary-color: #333;
+    --secondary-color: #666;
+    --terceary-color: #111;
+    --super-color: #4d7;
+    --background-color: #999;
+}
+*{
+    margin:0;
+    font-family: "Roboto Slab", 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+body{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background: var(--background-color);
+}
+.firstContainer{
+    position: relative;
+    margin: auto;
+    padding: 2%;
+    width: 50vw;
+    border-radius: 2vh;
+    border: solid 1px var(--primary-color);
+    box-shadow: 10 15px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    
+}
+h2{
+    word-break: break-word;
+    line-height: 1.5rem;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    color: white;
+}
+input{
+    max-width: 96%;
+    height: 2rem;
+    border-radius: 1vh;
+    border: 0;
+    margin: auto;
+    background-color: var(--secondary-color);
+    color: white;
+    
+}
+button.submit{
+    margin: 0.25rem;
+    margin-left: 0;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem;
+    border-radius: 1vh;
+    border: 0;
+    background-color: var(--terceary-color);
+}
+.containerresultado{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.resultado{
+    color: var(--super-color);
+    font-weight: 500;
+}
+.bottomText{
+    color: lightgray;
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+button#ayuda{
+    position: absolute;
+    padding: 0%;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background-color: transparent;
+    border: 0;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+}
+.image{
+    height: 2rem;
+    max-width: 2rem;
+}
